@@ -15,6 +15,7 @@ public class ClickGreenGum : MonoBehaviour, IPointerClickHandler
 
     public void OnPointerClick(PointerEventData eventData)
     {
+        Debug.Log("kk");
         if(rend.material.color == Color.green)
         {
             gameObject.SetActive(false);
